@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "golang.source-fellows.com/seminar/protobuf-hello-world";
+
+package main;
+
+message HelloWorld {
+  string message = 1;
+  bool important = 2;
+}
